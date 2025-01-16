@@ -8,9 +8,13 @@ RUN npm install
 
 COPY . .
 
+<<<<<<< HEAD
 ENV PORT=80
 
 EXPOSE $PORT
+=======
+EXPOSE 80
+>>>>>>> origin/main
 
 VOLUME [ "/app/feedback" ]
 
